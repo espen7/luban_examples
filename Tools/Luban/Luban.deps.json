@@ -22,6 +22,7 @@
           "Luban.Golang": "1.0.0",
           "Luban.Java": "1.0.0",
           "Luban.Javascript": "1.0.0",
+          "Luban.Kotlin": "1.0.0",
           "Luban.L10N": "1.0.0",
           "Luban.Lua": "1.0.0",
           "Luban.MsgPack": "1.0.0",
@@ -376,7 +377,7 @@
         },
         "runtime": {
           "Luban.Bson.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -388,7 +389,7 @@
         },
         "runtime": {
           "Luban.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -399,7 +400,7 @@
         },
         "runtime": {
           "Luban.Cpp.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -411,7 +412,7 @@
         },
         "runtime": {
           "Luban.CSharp.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -422,7 +423,7 @@
         },
         "runtime": {
           "Luban.Dart.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -437,7 +438,7 @@
         },
         "runtime": {
           "Luban.DataLoader.Builtin.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -449,7 +450,7 @@
         },
         "runtime": {
           "Luban.DataTarget.Builtin.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -460,7 +461,7 @@
         },
         "runtime": {
           "Luban.DataValidator.Builtin.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -472,7 +473,7 @@
         },
         "runtime": {
           "Luban.FlatBuffers.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -484,7 +485,7 @@
         },
         "runtime": {
           "Luban.Gdscript.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -495,7 +496,7 @@
         },
         "runtime": {
           "Luban.Golang.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -506,7 +507,7 @@
         },
         "runtime": {
           "Luban.Java.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -519,7 +520,18 @@
         },
         "runtime": {
           "Luban.Javascript.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Luban.Kotlin/1.0.0": {
+        "dependencies": {
+          "Luban.Core": "1.0.0"
+        },
+        "runtime": {
+          "Luban.Kotlin.dll": {
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -531,7 +543,7 @@
         },
         "runtime": {
           "Luban.L10N.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -542,7 +554,7 @@
         },
         "runtime": {
           "Luban.Lua.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -554,7 +566,7 @@
         },
         "runtime": {
           "Luban.MsgPack.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -566,7 +578,7 @@
         },
         "runtime": {
           "Luban.PHP.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -579,7 +591,7 @@
         },
         "runtime": {
           "Luban.Protobuf.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -591,7 +603,7 @@
         },
         "runtime": {
           "Luban.Python.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -602,7 +614,7 @@
         },
         "runtime": {
           "Luban.Rust.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -614,7 +626,7 @@
         },
         "runtime": {
           "Luban.Schema.Builtin.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -627,7 +639,7 @@
         },
         "runtime": {
           "Luban.Typescript.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -981,6 +993,11 @@
       "sha512": ""
     },
     "Luban.Javascript/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Luban.Kotlin/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
